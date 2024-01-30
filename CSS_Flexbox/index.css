@@ -1,0 +1,65 @@
+body{
+  font-family: 'poppins' sans-serif;
+}
+
+
+/* .container{
+  margin-top: 10px;
+  height: 500px;
+  width: 100px;
+  background: #f1c40f;
+  display: flex;
+  color: aliceblue;
+  text-align: center;
+  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+} */
+/* .item{
+  height: 150px;
+  background: #2ecc71;
+  margin: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+} */
+
+/* .one{
+  flex-basis: 120px;
+}
+.two{
+flex-basis: 60px;
+}
+.three{
+  flex-basis: 100px;
+}
+.four{
+flex-basis: 150px;
+}
+.five{
+  flex-basis: 200px;
+} */
+
+/* .one{
+  order: 1;
+}
+.three{
+  order: 2;
+}
+.five{
+  order: 3;
+} */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-1-1{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100px;
+} 
+
