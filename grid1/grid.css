@@ -34,8 +34,35 @@ h1{
   grid-area: sidebar;
 }
 .content1{
-  background: #e74c3c;
-  grid-area: content1;
+  background: #7a514d;
+  
+}
+.content1 .child{
+  grid-template-columns: 3fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 2px; 
+  grid-template-areas: 
+  "child1"
+  "child2"
+  "child3"
+  "child4";
+}
+.content1 .child .child1{
+background: #f1c40f;
+grid-area: child1;
+}
+.content1 .child .child2{
+background: #ec0772;
+grid-area: child2;
+}
+.content1 .child .child3{
+background: #091068;
+grid-area: child3;
+}
+.content1 .child .child4{
+background: #ecda93;
+grid-area: child4;
 }
 
 .content2{
@@ -62,6 +89,7 @@ h1{
   background: #f39c12;
   grid-area: footer;
 }
+
 
 
 /* .container{
